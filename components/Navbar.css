@@ -1,0 +1,31 @@
+.navbar {
+    color: white;
+    background-color: rgb(97, 9, 159);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.lists {
+    list-style-type: none;
+    display: flex;
+    gap: 28px;
+    margin: 9px 0px;
+}
+
+.list {
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all;
+}
+
+.list:hover {
+    font-weight: bolder;
+}
