@@ -1,0 +1,78 @@
+.container {
+  background-color: rgb(220, 187, 245);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.top {
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+}
+
+.addTodo {
+  margin: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.htwo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+}
+
+.inputbutton {
+  width: 100%;
+  border-radius: 49px;
+  border: none;
+  padding: 5px 12px;
+}
+
+.btn {
+  background-color: rgb(109, 36, 161);
+  padding: 7px;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 3px 9px;
+
+}
+
+.btn:hover {
+  background-color: rgb(86, 29, 126);
+}
+
+.check {
+  margin: 15px;
+  display: flex;
+}
+
+.line {
+  opacity: 1;
+  color: gray;
+  width: 90%;
+  margin: 2px 0px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 3px;
+}
+
+.buttons {
+  display: flex;
+  height: 100%;
+}
